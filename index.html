@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>May Thet Thet Khaing | Data Analysis Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="cursor" id="cursor"></div>
+
+  <header class="nav">
+    <a href="#top" class="logo">MAY<span>.</span></a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#certs">Certificates</a>
+      <a href="#about">About</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="pill">Let's talk</a>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="big-word" aria-hidden="true">PORTFOLIO</div>
+      <div class="hero-text">
+        <p class="tag">Data analysis / Accounting</p>
+        <p class="hello">Hello, I'm</p>
+        <h1>May Thet<br>Thet Khaing.</h1>
+        <p class="sub">Business Administration student in Yangon. I turn accounting numbers into clear, checked answers.</p>
+        <a href="#work" class="btn">View my work</a>
+      </div>
+      <div class="hero-photo"><img src="./images/may.jpg" alt="Portrait of May Thet Thet Khaing"></div>
+      <div class="hero-stat"><b data-count="6">0</b><span>certificates earned</span></div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="sec">
+      <p class="tag">01 / Selected work</p>
+      <h2>Work that <em>speaks.</em></h2>
+      <div class="tabs" id="tabs">
+        <button class="on" data-f="all">All</button>
+        <button data-f="excel">Excel</button>
+        <button data-f="accounting">Accounting</button>
+        <button data-f="analysis">Analysis</button>
+      </div>
+      <div class="cards" id="cards">
+        <article class="card" data-cat="excel"><span class="num">01</span><h3>Sales dashboard</h3><p>Replace with your Excel project: the data, the question, the result.</p></article>
+        <article class="card" data-cat="accounting"><span class="num">02</span><h3>Cost &amp; management report</h3><p>Replace with a case from your cost accounting course.</p></article>
+        <article class="card" data-cat="analysis"><span class="num">03</span><h3>Monthly trend analysis</h3><p>Replace with an analysis that ends in a clear recommendation.</p></article>
+      </div>
+    </section>
+
+    <!-- LOGOS -->
+    <div class="logos" aria-label="Qualifications and tools">
+      <div class="track"><span>LCCI</span><span>PEARSON</span><span>ITPEC</span><span>ACCA</span><span>EXCEL</span><span>WORD</span><span>POWERPOINT</span>
+      <span>LCCI</span><span>PEARSON</span><span>ITPEC</span><span>ACCA</span><span>EXCEL</span><span>WORD</span><span>POWERPOINT</span></div>
+    </div>
+
+    <!-- CERTIFICATES -->
+    <section id="certs" class="sec split">
+      <div>
+        <p class="tag">02 / Certificates</p>
+        <h2>The work.<br><em>The recognition.</em></h2>
+        <div class="big-num"><b data-count="6">0</b><span>qualifications</span></div>
+      </div>
+      <ul class="list">
+        <li><div><b>Advance Business Calculations</b><small>LCCI Level 3</small></div><i>Distinction</i></li>
+        <li><div><b>Cost &amp; Management Accounting</b><small>LCCI Level 3 Certificate</small></div><i>Distinction</i></li>
+        <li><div><b>Accounting</b><small>LCCI Level 3 Certificate</small></div><i>Merit</i></li>
+        <li><div><b>Book-Keeping and Accounting</b><small>LCCI Level 2</small></div><i>Merit</i></li>
+        <li><div><b>Diploma in Accounting &amp; Finance</b><small>Pearson LCCI Level 3</small></div><i>Completed</i></li>
+        <li><div><b>IP / FE examination</b><small>ITPEC</small></div><i>Passed</i></li>
+      </ul>
+    </section>
+
+    <!-- RAW TO REAL -->
+    <section class="sec split">
+      <div>
+        <p class="tag">03 / Behind the numbers</p>
+        <h2>From raw.<br><em>To real.</em></h2>
+        <p class="body">Messy rows become a chart anyone can read. Switch the view to see the idea (sample data).</p>
+        <div class="tabs" id="view">
+          <button class="on" data-v="chart">Chart</button>
+          <button data-v="table">Raw table</button>
+        </div>
+      </div>
+      <div class="panel">
+        <canvas id="chart" width="560" height="320"></canvas>
+        <table id="table" hidden></table>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="sec">
+      <p class="tag">04 / About</p>
+      <h2>Not just numbers.<br><em>The story behind them.</em></h2>
+      <div class="cols">
+        <div>
+          <h3>Education</h3>
+          <p><b>B.A Business Administration</b><br>Myanmar, in progress</p>
+          <p><b>ACCA Part 1</b><br>FA, MA and BT</p>
+          <h3>Languages</h3>
+          <p>English (native)<br>Burmese (professional)</p>
+        </div>
+        <div>
+          <h3>Skills</h3>
+          <ul class="skills">
+            <li>Microsoft Excel (advanced course)</li><li>Microsoft Word</li><li>Microsoft PowerPoint</li>
+            <li>Book-keeping &amp; accounting</li><li>Cost &amp; management accounting</li><li>Business calculations</li>
+          </ul>
+        </div>
+        <blockquote class="quote">I am responsible and orderly. Every figure has to add up, and I enjoy checking that it does.<cite>May Thet Thet Khaing</cite></blockquote>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section id="journey" class="sec">
+      <p class="tag">05 / Journey</p>
+      <h2>Little wins.<br><em>Big meaning.</em></h2>
+      <ol class="line">
+        <li><b>LCCI Level 2 Book-Keeping</b><span>Merit. The foundation.</span></li>
+        <li><b>LCCI Level 3 subjects</b><span>Accounting, cost accounting and business calculations.</span></li>
+        <li><b>Pearson LCCI Diploma + ITPEC IP/FE</b><span>Accounting &amp; Finance diploma and the IP/FE pass.</span></li>
+        <li><b>ACCA Part 1 and B.A Business Administration</b><span>Now. Next step: my first work experience.</span></li>
+      </ol>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="sec split">
+      <div>
+        <p class="tag">06 / Your next hire</p>
+        <h2>Let's work<br><em>together.</em></h2>
+        <p class="body">Have data that needs to make sense? Let's talk.</p>
+        <ul class="info">
+          <li><small>Email</small><a href="mailto:maythetthetkhaing85@gmail.com">maythetthetkhaing85@gmail.com</a></li>
+          <li><small>Phone</small><a href="tel:+959793803100">+95 979 380 3100</a></li>
+          <li><small>Location</small>Yangon, Myanmar</li>
+        </ul>
+      </div>
+      <div class="big-card"><span>Make it</span><span class="red">add up.</span></div>
+    </section>
+  </main>
+
+  <footer>© 2026 May Thet Thet Khaing. Built with HTML, CSS and JavaScript.</footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
